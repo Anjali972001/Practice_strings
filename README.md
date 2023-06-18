@@ -12,3 +12,4 @@ String str1="Anjali";
 // in heap it will point to the same string no  two different string anjali will be formed
 
 * new keyword can be used to avoid the interning.
+* Due to interning there exists immutebility in the string.
