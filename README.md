@@ -13,3 +13,7 @@ String str1="Anjali";
 
 * new keyword can be used to avoid the interning.
 * Due to interning there exists immutebility in the string.
+
+# Performance of the string:
+
+* Due to immutibility there is the poor performance of the string.
