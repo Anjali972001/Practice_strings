@@ -24,4 +24,4 @@ String str1="Anjali";
 * poor performance
 
 # Need of the string Builder
-* There was no function available as setChar() but charAt() function was available.
+* There was no function available as setChar() but charAt() function was available but we can also set the character in the string builder.
