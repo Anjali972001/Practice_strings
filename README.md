@@ -17,3 +17,8 @@ String str1="Anjali";
 # Performance of the string:
 
 * Due to immutibility there is the poor performance of the string.
+
+# problems with the String:
+* Interning
+* immutibile
+* poor performance
