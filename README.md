@@ -22,3 +22,6 @@ String str1="Anjali";
 * Interning
 * immutibile
 * poor performance
+
+# Need of the string Builder
+* There was no function available as setChar() but charAt() function was available.
