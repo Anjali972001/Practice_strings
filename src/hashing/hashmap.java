@@ -18,5 +18,18 @@ public class hashmap {
         // If we want to update the value then we will do
         map.put("china",110);
         System.out.println(map);
+
+        // search / lookup operation:
+        if(map.containsKey("Russia"))
+        {
+            System.out.println("no");
+        }
+        else {
+            System.out.println("Yes");
+        }
+
+        // get()
+        System.out.println(map.get("china"));
+        System.out.println(map.get("Russia"));
     }
 }
