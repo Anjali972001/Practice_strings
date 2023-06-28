@@ -29,7 +29,29 @@ public class hashmap {
         }
 
         // get()
-        System.out.println(map.get("china"));
-        System.out.println(map.get("Russia"));
+      //  System.out.println(map.get("china"));
+       // System.out.println(map.get("Russia"));
+        int arr[]={12,15,18};
+        for(int i=0;i<3;i++)
+        {
+            System.out.println(arr[i]+" ");
+        }
+        System.out.println();
+        for(int var:arr)
+        {
+            System.out.println(var+" ");
+        }
+        System.out.println();
+        for(Map.Entry<String,Integer> e:map.entrySet())
+        {
+            System.out.println(e.getKey());
+            System.out.println(e.getValue());
+        }
+        // to store the key.
+        Set<String> keys=map.keySet();
+        for(String key:keys)
+        {
+
+        }
     }
 }
