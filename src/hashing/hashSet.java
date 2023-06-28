@@ -6,6 +6,7 @@ public class hashSet {
         set.add(1);
         set.add(2);
         set.add(3);
+        set.add(1);
         // adding the element in the hashset
 
         // searching the element in the list.
@@ -16,6 +17,12 @@ public class hashSet {
         if(!set.contains(6))
         {
             System.out.println("Does not contains 6");
+        }
+        // Delete
+        set.remove(1);
+        if(!set.contains(1))
+        {
+            System.out.println("Does not Contains 1");
         }
 
     }
